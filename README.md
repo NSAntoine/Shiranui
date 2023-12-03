@@ -5,4 +5,4 @@ Mostly as a demo, Shiranui can scan barcodes of Vinyls & album CDs to find show 
 ## Video Demonstration
 
 
-https://github.com/NSAntoine/Shiranui/assets/48022799/e4fe5d9e-e2cf-432c-a068-f0d54e4993f0d
+![Video Demonstration](https://github.com/NSAntoine/Shiranui/assets/48022799/e4fe5d9e-e2cf-432c-a068-f0d54e4993f0d)
