@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE9119272B19CAEC009F37D9 /* VinylScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9119262B19CAEC009F37D9 /* VinylScannerApp.swift */; };
+		CE398F9A2B1A3F7100344520 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE398F992B1A3F7100344520 /* Album.swift */; };
+		CE398F9C2B1A4A2500344520 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE398F9B2B1A4A2500344520 /* Preferences.swift */; };
+		CE398F9E2B1A4FFB00344520 /* AlbumRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE398F9D2B1A4FFA00344520 /* AlbumRow.swift */; };
+		CE492A222B1A26C7006299A0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE492A212B1A26C7006299A0 /* Extensions.swift */; };
+		CE492A242B1A2C27006299A0 /* AlbumFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE492A232B1A2C27006299A0 /* AlbumFetcher.swift */; };
+		CE680C202B1A167D006411FE /* CameraScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE680C1F2B1A167D006411FE /* CameraScannerViewController.swift */; };
+		CE72F9412B19DD0A00F51FDB /* ScanItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE72F9402B19DD0A00F51FDB /* ScanItemViewController.swift */; };
+		CE9119272B19CAEC009F37D9 /* ShiranuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9119262B19CAEC009F37D9 /* ShiranuiApp.swift */; };
 		CE9119292B19CAEC009F37D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9119282B19CAEC009F37D9 /* ContentView.swift */; };
 		CE91192B2B19CAED009F37D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE91192A2B19CAED009F37D9 /* Assets.xcassets */; };
 		CE91192E2B19CAED009F37D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE91192D2B19CAED009F37D9 /* Preview Assets.xcassets */; };
+		CEA042932B19D1C800B04DC6 /* ScanItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA042922B19D1C800B04DC6 /* ScanItemRow.swift */; };
+		CEF50F502B1B81E8006E6ACF /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF50F4F2B1B81E8006E6ACF /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CE9119232B19CAEC009F37D9 /* VinylScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VinylScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE9119262B19CAEC009F37D9 /* VinylScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VinylScannerApp.swift; sourceTree = "<group>"; };
+		CE398F952B1A396D00344520 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		CE398F962B1A3A5C00344520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CE398F992B1A3F7100344520 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		CE398F9B2B1A4A2500344520 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		CE398F9D2B1A4FFA00344520 /* AlbumRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumRow.swift; sourceTree = "<group>"; };
+		CE492A212B1A26C7006299A0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CE492A232B1A2C27006299A0 /* AlbumFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumFetcher.swift; sourceTree = "<group>"; };
+		CE680C1F2B1A167D006411FE /* CameraScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraScannerViewController.swift; sourceTree = "<group>"; };
+		CE72F9402B19DD0A00F51FDB /* ScanItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanItemViewController.swift; sourceTree = "<group>"; };
+		CE9119232B19CAEC009F37D9 /* Shiranui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shiranui.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9119262B19CAEC009F37D9 /* ShiranuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiranuiApp.swift; sourceTree = "<group>"; };
 		CE9119282B19CAEC009F37D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE91192A2B19CAED009F37D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE91192D2B19CAED009F37D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEA042922B19D1C800B04DC6 /* ScanItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanItemRow.swift; sourceTree = "<group>"; };
+		CEF50F4F2B1B81E8006E6ACF /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,10 +52,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE398F972B1A3F3C00344520 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				CE9119282B19CAEC009F37D9 /* ContentView.swift */,
+				CEF50F4F2B1B81E8006E6ACF /* WelcomeView.swift */,
+				CE398F9D2B1A4FFA00344520 /* AlbumRow.swift */,
+				CE72F9402B19DD0A00F51FDB /* ScanItemViewController.swift */,
+				CE680C1F2B1A167D006411FE /* CameraScannerViewController.swift */,
+				CEA042922B19D1C800B04DC6 /* ScanItemRow.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		CE398F982B1A3F5B00344520 /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+				CE492A232B1A2C27006299A0 /* AlbumFetcher.swift */,
+				CE398F992B1A3F7100344520 /* Album.swift */,
+				CE492A212B1A26C7006299A0 /* Extensions.swift */,
+				CE398F9B2B1A4A2500344520 /* Preferences.swift */,
+			);
+			path = Backend;
+			sourceTree = "<group>";
+		};
 		CE91191A2B19CAEC009F37D9 = {
 			isa = PBXGroup;
 			children = (
-				CE9119252B19CAEC009F37D9 /* VinylScanner */,
+				CE9119252B19CAEC009F37D9 /* Shiranui */,
 				CE9119242B19CAEC009F37D9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +87,23 @@
 		CE9119242B19CAEC009F37D9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE9119232B19CAEC009F37D9 /* VinylScanner.app */,
+				CE9119232B19CAEC009F37D9 /* Shiranui.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CE9119252B19CAEC009F37D9 /* VinylScanner */ = {
+		CE9119252B19CAEC009F37D9 /* Shiranui */ = {
 			isa = PBXGroup;
 			children = (
-				CE9119262B19CAEC009F37D9 /* VinylScannerApp.swift */,
-				CE9119282B19CAEC009F37D9 /* ContentView.swift */,
+				CE398F962B1A3A5C00344520 /* Info.plist */,
+				CE9119262B19CAEC009F37D9 /* ShiranuiApp.swift */,
+				CE398F972B1A3F3C00344520 /* UI */,
+				CE398F982B1A3F5B00344520 /* Backend */,
+				CE398F952B1A396D00344520 /* Config.xcconfig */,
 				CE91192A2B19CAED009F37D9 /* Assets.xcassets */,
 				CE91192C2B19CAED009F37D9 /* Preview Content */,
 			);
-			path = VinylScanner;
+			path = Shiranui;
 			sourceTree = "<group>";
 		};
 		CE91192C2B19CAED009F37D9 /* Preview Content */ = {
@@ -70,21 +117,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CE9119222B19CAEC009F37D9 /* VinylScanner */ = {
+		CE9119222B19CAEC009F37D9 /* Shiranui */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE9119312B19CAED009F37D9 /* Build configuration list for PBXNativeTarget "VinylScanner" */;
+			buildConfigurationList = CE9119312B19CAED009F37D9 /* Build configuration list for PBXNativeTarget "Shiranui" */;
 			buildPhases = (
 				CE91191F2B19CAEC009F37D9 /* Sources */,
 				CE9119202B19CAEC009F37D9 /* Frameworks */,
 				CE9119212B19CAEC009F37D9 /* Resources */,
+				CE70A41F2B1CE67D0050A56D /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = VinylScanner;
+			name = Shiranui;
 			productName = VinylScanner;
-			productReference = CE9119232B19CAEC009F37D9 /* VinylScanner.app */;
+			productReference = CE9119232B19CAEC009F37D9 /* Shiranui.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,10 +147,11 @@
 				TargetAttributes = {
 					CE9119222B19CAEC009F37D9 = {
 						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
 					};
 				};
 			};
-			buildConfigurationList = CE91191E2B19CAEC009F37D9 /* Build configuration list for PBXProject "VinylScanner" */;
+			buildConfigurationList = CE91191E2B19CAEC009F37D9 /* Build configuration list for PBXProject "Shiranui" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +164,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CE9119222B19CAEC009F37D9 /* VinylScanner */,
+				CE9119222B19CAEC009F37D9 /* Shiranui */,
 			);
 		};
 /* End PBXProject section */
@@ -132,13 +181,42 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CE70A41F2B1CE67D0050A56D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [ \"$DISCOGS_API_KEY\" = \"UNSET\" ]; then\n    echo \"Please set DISCOGS_API_KEY\" \n    exit -1\nfi;\n\nif [ \"$DISCOGS_API_SECRET\" = \"UNSET\" ]; then\n    echo \"Please set DISCOGS_API_KEY\" \n    exit -1\nfi;\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE91191F2B19CAEC009F37D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA042932B19D1C800B04DC6 /* ScanItemRow.swift in Sources */,
 				CE9119292B19CAEC009F37D9 /* ContentView.swift in Sources */,
-				CE9119272B19CAEC009F37D9 /* VinylScannerApp.swift in Sources */,
+				CE398F9C2B1A4A2500344520 /* Preferences.swift in Sources */,
+				CE72F9412B19DD0A00F51FDB /* ScanItemViewController.swift in Sources */,
+				CE492A222B1A26C7006299A0 /* Extensions.swift in Sources */,
+				CE680C202B1A167D006411FE /* CameraScannerViewController.swift in Sources */,
+				CE398F9A2B1A3F7100344520 /* Album.swift in Sources */,
+				CEF50F502B1B81E8006E6ACF /* WelcomeView.swift in Sources */,
+				CE9119272B19CAEC009F37D9 /* ShiranuiApp.swift in Sources */,
+				CE398F9E2B1A4FFB00344520 /* AlbumRow.swift in Sources */,
+				CE492A242B1A2C27006299A0 /* AlbumFetcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +225,7 @@
 /* Begin XCBuildConfiguration section */
 		CE91192F2B19CAED009F37D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE398F952B1A396D00344520 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -269,25 +348,31 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"VinylScanner/Preview Content\"";
-				DEVELOPMENT_TEAM = L9735M962H;
+				DEVELOPMENT_ASSET_PATHS = "\"Shiranui/Preview Content\"";
+				DEVELOPMENT_TEAM = 82CWTJRJZZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Shiranui/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To scan barcodes of Albums";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.serena.VinylScanner;
+				OTHER_CFLAGS = "\"-D DISCOGS_API_KEY=R\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.serena.Shiranui;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -295,26 +380,32 @@
 		};
 		CE9119332B19CAED009F37D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE398F952B1A396D00344520 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"VinylScanner/Preview Content\"";
-				DEVELOPMENT_TEAM = L9735M962H;
+				DEVELOPMENT_ASSET_PATHS = "\"Shiranui/Preview Content\"";
+				DEVELOPMENT_TEAM = 82CWTJRJZZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Shiranui/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To scan barcodes of Albums";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.serena.VinylScanner;
+				OTHER_CFLAGS = "\"-D DISCOGS_API_KEY=R\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.serena.Shiranui;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -325,7 +416,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CE91191E2B19CAEC009F37D9 /* Build configuration list for PBXProject "VinylScanner" */ = {
+		CE91191E2B19CAEC009F37D9 /* Build configuration list for PBXProject "Shiranui" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE91192F2B19CAED009F37D9 /* Debug */,
@@ -334,7 +425,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE9119312B19CAED009F37D9 /* Build configuration list for PBXNativeTarget "VinylScanner" */ = {
+		CE9119312B19CAED009F37D9 /* Build configuration list for PBXNativeTarget "Shiranui" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE9119322B19CAED009F37D9 /* Debug */,

@@ -1,0 +1,9 @@
+//
+//  Config.xcconfig
+//  Shiranui
+//
+//  Created by Serena on 01/12/2023.
+//
+
+DISCOGS_API_KEY = UNSET
+DISCOGS_API_SECRET = UNSET
